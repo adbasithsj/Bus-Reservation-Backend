@@ -1,0 +1,14 @@
+POST http://localhost:4005/app/signup
+Content-Type: application/json
+
+{
+    "pickup":"Coimbatore",
+    "drop":"Chennai",
+    "gender":"Male",
+    "idType":"Aadhaar",
+    "idCard":"12345abc",
+    "name":"Ahamed",
+    "email":"aha@gmail.com",
+    "contact":"9374838383",
+    "age":"28"
+}
